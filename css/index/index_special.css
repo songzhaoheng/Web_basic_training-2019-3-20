@@ -1,0 +1,300 @@
+/* 专题样式 */
+
+.zhuanti {
+  width: 1190px;
+  margin:10px auto 0;
+}
+
+.miaosha-head {
+  width: 100%;
+  background-image:url('../../images/index/context/seckill_hd.png');
+  height:55px;
+  line-height:55px;
+}
+
+.miaosha-left {
+  float:left;
+  position:relative;
+}
+
+.miaosha-right {
+  float:right;
+}
+
+.miaosha-icon {
+  background-image:url('../../images/share/sprite_index@1x.png');
+}
+
+.miaosha-left>a,.miaosha-left>h3,.miaosha-left>i {
+  float:left;
+  color:#fff;
+}
+
+.miaosha-arrow {
+  position:absolute;
+  left:0;
+  top:0;
+  width: 20px;
+  height: 28px;
+  background-position:-195px -52px;
+}
+
+.miaosha-clock {
+  width: 34px;
+  height: 40px;
+  background-position:0 -40px;
+  margin-top: 8px;
+  margin-left:30px;
+  margin-right: 8px;
+}
+
+.miaosha-left>h3 {
+  font-family: fzzhengheis-el-gbregular;
+  font-weight:300;
+  font-size:26px;
+  margin-right:20px;
+}
+
+.miaosha-cicle {
+  width: 15px;
+  height: 16px;
+  background-position: -154px -40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: -20px;
+}
+
+.miaosha-right {
+  float:right;
+}
+
+.miaosha-right>div,.miaosha-right>span {
+  float:left;
+  color:#fff;
+}
+
+.miaosha-right>span {
+  font-size: 14px;
+}
+
+.miaosha-right>div.time-number {
+  width: 35px;
+  height:37px;
+  line-height:37px;
+  background-color: #440106;
+  color: #f90013;
+  font-size:24px;
+  font-weight:bold;
+  font-family:Arial;
+  text-align:center;
+  margin-top:10px;
+}
+
+.first-span {
+  margin-right:6px;
+}
+
+.last-span {
+  margin:0 25px 0 8px;
+}
+
+.miaosha-right>div.dotted>i {
+  background-color: #440106;
+  height:4px;
+  width: 4px;
+  border-radius:50%;
+  display:block;
+  margin-top:10px;
+}
+
+.miaosha-right>div.dotted {
+  margin:10px 6px 0;
+}
+
+.miaosha-bottom {
+  position:relative;
+}
+
+.miaosha-bottom>ul {
+  width:100%;
+  height:225px;
+  padding:12px 0 13px;
+  background-color:#fff;
+  overflow:hidden;
+}
+
+.miaosha-bottom>ul>li {
+  width:170px;
+  float:left;
+  padding:0 14px 0 15px;
+  border-right:1px solid #e7e7e7;
+  text-align:center;
+  position:relative;
+  height:212px;
+}
+
+
+.goods-icon {
+  position:absolute;
+  width: 170px;
+  height: 20px;
+  top:110px;
+  left:50%;
+  margin-left:-85px;
+}
+
+.goods-info {
+  height:32px;
+  line-height:16px;
+  overflow:hidden;
+  margin-top:10px;
+  color:#999;
+}
+
+.goods-price {
+  margin-top:10px;
+}
+
+.goods-red-txt {
+  color:#f10214;
+}
+
+.goods-red-txt>i,.delete>i {
+  font-style:normal;
+}
+
+.goods-red-txt>span {
+  font-size:18px;
+  font-weight:bold;
+}
+
+.delete {
+  color: #999;
+  margin-left:10px;
+}
+
+.sanmiao-img {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.faxian {
+  width:100%;
+  margin-top:30px;
+  overflow:hidden;
+}
+
+.faxian>div {
+  float:left;
+  width: 390px;
+  height: 444px;
+  background-color:#fff;
+  margin-right:10px;
+}
+
+.faxian-inner.last {
+  margin-right:0;
+}
+
+.faxian-inner-top {
+  height:55px;
+  width: 340px;
+  padding:0 20px 0 30px;
+  background-color:#FF3428 ;
+  position:relative;
+  overflow:hidden;
+  line-height:55px;
+  color:#fff;
+}
+
+.faxian-arrow {
+  position:absolute;
+  background-position: -190px -50px;
+  width: 28px;
+  height:28px;
+  left: -4px;
+  top: -4px;
+}
+
+.faxian-empty {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 0;
+  height: 0;
+  border-top:19px solid #f6f6f6;
+  border-right:19px solid transparent;
+}
+
+.faxian-inner-top>h3 {
+  font-size:26px;
+  font-weight:400;
+  float:left;
+}
+
+.faxian-inner-top>a {
+  color:#fff;
+  float:right;
+  margin-right:20px;
+  font-size:14px;
+}
+
+.faxian-cicle {
+  width: 15px;
+  height: 16px;
+  background-position:-154px -40px;
+  position:absolute;
+  right:20px;
+  top:50%;
+  margin-top:-8px;
+}
+
+.faxian-inner-bottom {
+  padding: 10px;
+  height: 369px;
+}
+
+.faxian-inner-bottom>ul {
+  width: 370px;
+  height: 363px;
+  overflow:hidden;
+}
+
+.faxian-inner-bottom>ul>li {
+  width: 185px;
+  height: 120px;
+  border-right:1px solid #e7e7e7;
+  border-bottom:1px solid #e7e7e7;
+  float:left;
+  position:relative;
+}
+
+.faxian-inner-bottom>ul>li.border-none {
+  border-right:none;
+  margin-left:-1px;
+}
+
+.faxian-inner-bottom>ul>li.bottom-none {
+  border-bottom:none;
+}
+
+.faxian-txt {
+  font-size:14px;
+  color:#4998a1;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.faxian-text {
+  font-size:14px;
+  color:#4998a1;
+  margin-left: 20px;
+}
+
+.faxian-inner-bottom>ul>li>img {
+  position:absolute;
+  bottom:5px;
+  right:10px;
+}

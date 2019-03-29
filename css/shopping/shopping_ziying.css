@@ -1,0 +1,30 @@
+.ziying-header {
+  margin-top:20px;
+}
+
+
+.ziying-header>input {
+// float:left;
+  margin-left:11px;
+}
+
+.ziying-txt {
+  background-image: url(../img/cart-icons-201708.png);
+  float: left;
+  width: 54px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: 0px -177px;
+  margin-top: -3px;
+  margin-left: 8px;
+}
+
+.ziying-content {
+  border:1px solid #f1f1f1;
+  border-top:2px solid #aaa;
+}
+
+.ziying-content>ul {
+  padding:0 10px 0 40px;
+  border-bottom: 1px solid #ccc;
+}

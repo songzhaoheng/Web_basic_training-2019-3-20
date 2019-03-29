@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,ol,li {
+  list-style-type: none;
+}
+
+.clear {
+  clear:both;
+}
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  height: auto;
+}
+.arrow-icon {
+  background-image:url('../../images/share/arrwo.png');
+}

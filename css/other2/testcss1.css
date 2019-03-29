@@ -1,0 +1,29 @@
+div{
+  width: 500px;
+  height: 100px;
+  background: #b3d4fc;
+}
+
+#id_test{
+  font-size: 20px;
+}
+
+.id_test2{
+  font-size: 60px;
+}
+
+div span{
+  font-size: 50px;
+}
+
+div.id_test2{
+  color: #555555;
+}
+div>span{
+  color: aqua;
+}
+
+div>.id_test2{
+  color: aquamarine;
+}
+

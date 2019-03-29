@@ -1,0 +1,27 @@
+.search-wp {
+  float:right;
+}
+
+.search-wp {
+  margin-top:40px;
+  border:2px solid #c91623;
+  height:24px;
+  line-height:24px;
+}
+
+.search {
+  width: 260px;
+  padding:3px 5px;
+  outline: none;
+  border:none;
+}
+
+.search-btn {
+  width: 48px;
+  height: 24px;
+  background-color:#c91623;
+  color:#fff;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+}

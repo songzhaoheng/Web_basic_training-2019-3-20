@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol,li {
+    list-style-type: none;
+}
+
+.clear {
+   clear:both;
+}
+
+body {
+    background-color: #f6f6f6;
+    color:#666;
+    font-size: 12px;
+    font-family: '微软雅黑';
+    height:3000px;
+}
+.service>ul>li {
+    float:left;
+    width: 47px;
+    height: 65px;
+    border-top: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    text-align:center;
+    margin-left:-1px;
+}
+
+.service>ul>li>i {
+    width: 24px;
+    height: 24px;
+    background-image:url('../../images/share/sprite_fs@1x.png');
+    display:block;
+    margin:10px auto;
+    background-position:-1px -87px;
+}
